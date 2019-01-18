@@ -1,0 +1,54 @@
+.wrapper {
+	background-image: url('../background/menu_bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main__menu {
+	font-family: gagalinregular;
+	font-size: 80px;
+	color: #ffffff;
+	position: absolute;
+	top: 15%;
+	left: 12%;
+}
+
+.main__menu__type {
+	float: right;
+	height: 100%;
+	width: 80px;
+	font-family: gagalinregular;
+	color: #ffffff;
+	text-transform: uppercase;
+	position: relative;
+	overflow: hidden;
+}
+
+.main__menu__type__text {
+	position: absolute;
+	top: 45%;
+	transform: rotate(-90deg);
+	width: 285px;
+	height: 100px;
+	font-size: 40px;
+	left: -78px;
+	text-align: center;
+}
+
+.main__menu__type_diet {
+	background-image: url('../background/bg_diet.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main__menu__type_vegan {
+	background-image: url('../background/bg_veg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main__menu__type_meat {
+	background-image: url('../background/bg_meat.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}

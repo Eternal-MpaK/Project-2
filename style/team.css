@@ -1,0 +1,41 @@
+.wrapper {
+	background-image: url('../background/SBS_1255-X2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	float: right;
+	height: 100%;
+	width: 47%;
+	background-color: rgba(47, 50, 52, 0.93);
+	margin: 0;
+}
+
+.main {
+	padding-left: 80px;
+	padding-top: 130px;
+}
+
+.main__team {
+	font-family: gagalinregular;
+	font-size: 60px;
+	color: #f9b43b;
+	margin-bottom: 80px;
+}
+
+.main__list {
+	list-style: none;
+	font-family: gagalinregular;
+	color: #ffffff;
+	padding-left: 0;
+}
+
+.main__list__item {
+	margin-bottom: 35px;
+
+}
+
+.main__list__item__poly {
+	margin-right: 5px;
+}

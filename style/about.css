@@ -1,0 +1,49 @@
+.wrapper {
+	background-image: url('../background/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main__we {
+	display: inline-block;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: gagalinregular;
+	font-size: 72px;
+	color: #2f3234;
+	text-align: center;
+	margin-top: 130px;
+	margin-bottom: 75px;
+}
+
+.main__item {
+	display: inline-block;
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.main__item:nth-last-child(1) {
+	margin-right: 0px;
+}
+
+.main__image {
+	display: inline-block;
+	width: 96px;
+	height: 90px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.main__h {
+	font-family: lifehackmedium;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.main__text {
+	color: #6a6a6a;
+	line-height: 2;
+	font-size: 14.04px;
+}
