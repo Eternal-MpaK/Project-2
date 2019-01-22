@@ -4,6 +4,10 @@
 	background-size: cover;
 }
 
+.menu__border {
+	position: relative;
+}
+
 .main__menu {
 	font-family: gagalinregular;
 	font-size: 80px;
