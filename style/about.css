@@ -1,5 +1,5 @@
-.wrapper {
-	background-image: url('../background/bg.jpg');
+.background_about {
+	background-image: url('../images/background/bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -28,7 +28,7 @@
 	margin-right: 0px;
 }
 
-.main__image {
+.main__about__image {
 	display: inline-block;
 	width: 96px;
 	height: 90px;

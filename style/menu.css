@@ -1,5 +1,5 @@
-.wrapper {
-	background-image: url('../background/menu_bg.jpg');
+.background_menu {
+	background-image: url('../images/background/menu_bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -36,19 +36,19 @@
 }
 
 .main__menu__type_diet {
-	background-image: url('../background/bg_diet.jpg');
+	background-image: url('../images/background/bg_diet.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .main__menu__type_vegan {
-	background-image: url('../background/bg_veg.jpg');
+	background-image: url('../images/background/bg_veg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .main__menu__type_meat {
-	background-image: url('../background/bg_meat.jpg');
+	background-image: url('../images/background/bg_meat.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }

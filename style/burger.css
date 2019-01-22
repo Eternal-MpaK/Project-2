@@ -1,5 +1,5 @@
-.wrapper {
-	background-image: url('../background/Rectangle 1.jpg');
+.background_burger {
+	background-image: url('../images/background/Rectangle 1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -27,6 +27,7 @@
 	padding-top: 14px;
 	padding-bottom: 12px;
 	border-radius: 5px;
+	font-size: 14px;
 }
 
 .main__burger__ingridients__text {
@@ -50,6 +51,7 @@
 	position: absolute;
 	bottom: -15px;
 	left: 15px;
+	font-size: 14px;
 }
 
 .main__info {
@@ -59,6 +61,8 @@
 	position: relative;
 	top: 50%; 
 	transform: translateY(-50%);
+	font-size: 14px;
+	font-family: ubuntulight;
 }
 
 .main__info__h {
@@ -97,4 +101,5 @@
 	margin-left: 20px;
 	padding: 10px 15px;
 	border-radius: 5px;
+	font-size: 13px;
 }

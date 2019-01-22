@@ -1,5 +1,5 @@
-.wrapper {
-	background-image: url('../background/chalkboard_texture_mc2015_by_mattiamc-d8dbnac.jpg');
+.background_order {
+	background-image: url('../images/background/chalkboard_texture_mc2015_by_mattiamc-d8dbnac.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -37,6 +37,7 @@
 .main__order__input__rightside__text {
 	margin-top: 20px;
 	margin-bottom: 10px;
+	font-size: 14px;
 }
 
 .main__order__input__leftside__box {
@@ -89,6 +90,10 @@
 	border-radius: 5px;
 	padding: 10px 19px 7px;
 	box-sizing: border-box;
+}
+
+.main__order__input {
+	font-size: 14px;
 }
 
 .main__order__input__rightside__payment {
