@@ -47,6 +47,28 @@ body {
 	margin-bottom: 28px;
 }
 
+.main__customer__feedback__popup {
+	background-color: #fff;
+	font-size: 14px;
+    border-radius: 15px;
+    color: black;
+    display: none; 
+    padding: 20px;
+    width: 400px;
+    min-height: 180px;	
+}
+
+.main__customer__feedback__popup h1 {
+	font-family: gagalinregular;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.main__customer__feedback__popup p {
+	font-family: ubuntulight;
+	line-height: 2;
+}
+
 .main__customer__more a {
 	font-family: ubuntumedium;
 	font-size: 13px;

@@ -30,6 +30,7 @@
 	color: #ffffff;
 	padding-left: 0;
 	font-size: 14px;
+	cursor: pointer;
 }
 
 .main__list__item {
@@ -39,4 +40,41 @@
 
 .main__list__item__poly {
 	margin-right: 5px;
+}
+
+.main__team__member {
+	max-width: 350px;
+	height: 0;
+	overflow: hidden;
+	position: relative;
+	transition: .3s;
+}
+
+.main__team__member_active {
+	
+}
+
+.main__team__member__photo {
+	display: inline-block;
+	margin-top: 17px;
+	margin-left: 17px;
+	height: 118px;
+	width: 100px;
+	background-image: url('../images/background/aphex.png');
+}
+
+.main__team__member__text {
+	position: absolute;
+	top: 17px;
+	left: 140px;
+}
+
+.main__team__member__position {
+	font-family: ubuntubold;
+	margin-bottom: 21px;
+}
+
+.main__team__member__desc {
+	font-family: ubuntulight;
+	line-height: 1.4;
 }

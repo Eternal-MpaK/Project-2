@@ -17,7 +17,7 @@
 	left: 12%;
 }
 
-.main__menu__type {
+.main__menu__box {
 	float: right;
 	height: 100%;
 	width: 80px;
@@ -26,6 +26,20 @@
 	text-transform: uppercase;
 	position: relative;
 	overflow: hidden;
+	background-color: rgba(47, 50, 52, 0.93);
+	transition: .3s;
+}
+
+.main__menu__type {
+	float: left;
+	height: 100%;
+	width: 80px;
+	font-family: gagalinregular;
+	color: #ffffff;
+	text-transform: uppercase;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
 }
 
 .main__menu__type__text {
@@ -55,4 +69,23 @@
 	background-image: url('../images/background/bg_meat.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.main__menu__type__desc {
+	margin-top: 20px;
+	padding-left: 30px;
+	height: 100%;
+	min-width: 520px;
+	font-size: 14px;
+	font-family: ubuntulight;
+	color: white;
+	text-align: center;
+}
+
+.main__menu__type_active {
+	color: #f9b43b;
+}
+
+.main__menu__box_active {
+	width: 550px;
 }

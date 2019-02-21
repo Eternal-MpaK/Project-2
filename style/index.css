@@ -28,6 +28,31 @@
 
 .navigation__item {
 	display: inline-block;
+	position: relative;
+	font-family: ubuntumedium;
+}
+
+.navigation__item::after {
+	position: absolute;
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: #fff;
+	top: 7px;
+	margin-left: -2px;
+}
+
+.navigation__item:nth-child(6)::after {
+	content: "";
+	display: none;
+}
+
+.navigation__item:nth-child(7)::after {
+	content: "";
+	display: none;
 }
 
 .navigation__item:nth-child(7) {

@@ -24,20 +24,21 @@
 
 @font-face {
 	font-family: ubuntulight;
-/* 	src:  url('../fonts/Ubuntu/Ubuntu-Regular.ttf'); */
 	src: url('../fonts/Ubuntu/Ubuntu-Light.ttf');
-/* 	src: url('../fonts/Ubuntu/Ubuntu-Medium.ttf');
-	src: url('../fonts/Ubuntu/Ubuntu-B.ttf'); */
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: ubuntumedium;
-/* 	src:  url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
-	src: url('../fonts/Ubuntu/Ubuntu-Light.ttf'); */
 	src: url('../fonts/Ubuntu/Ubuntu-Medium.ttf');
-/* 	src: url('../fonts/Ubuntu/Ubuntu-B.ttf'); */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: ubuntubold;
+	src: url('../fonts/Ubuntu/Ubuntu-B.ttf');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -61,7 +62,7 @@ body {
 	height: 100%;
 }
 
-.main {
+.page {
 	height: 100vh;
 	min-height: 650px;
 }
