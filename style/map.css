@@ -1,0 +1,28 @@
+.main__map {
+	height: calc(100% - 58px);
+	width: 100%;
+}
+
+.main__footer {
+	height: 58px;
+	width: 100%;
+	background-image: url('../images/background/chalkboard_texture_mc2015_by_mattiamc-d8dbnac.jpg');
+}
+
+.main__footer__left {
+	max-width: 50%;
+}
+
+.main__footer__left__adress {
+	font-family: ubuntulight;
+	font-size: 14px;
+	color: #fff;
+	padding-top: 11px;
+	padding-bottom: 7px;
+}
+
+.main__footer__left__phone {
+	font-family: ubuntubold;
+	font-size: 14px;
+	color: #e35028;
+}

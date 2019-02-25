@@ -121,3 +121,31 @@ $(function() {
  $(document).ready(function(){
       $('.slider').bxSlider();
  });
+
+$(document).ready(function(){
+	ymaps.ready(init);    
+        function init(){ 
+            var myMap = new ymaps.Map("map", {
+                center: [59.93, 30.38],
+                zoom: 12,
+                controls: []
+        	}); 
+
+        myMap.behaviors.disable([
+                'scrollZoom', 'drag'
+            ]);
+		};
+
+        myPlacemark1 = new ymaps.Placemark([59.93, 30.38], {
+            balloonContent: 'Средняя иконка'
+        }, {
+            iconLayout: 'default#image',
+            iconImageClipRect: [[34,0], [62, 46]],
+            iconImageHref: '../images/icons/map-marker.svg',
+            iconImageSize: [26, 46],
+            iconImageOffset: [-26, -46]
+        });
+
+    myMap.geoObjects.add(myPlacemark1);
+
+});
