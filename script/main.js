@@ -102,6 +102,10 @@ $(function () {
 		$(".link_order").moveTo(7);
 	});
 
+	$(".link_contacts").on('click', function () {
+		$(".link_contacts").moveTo(8);
+	});
+
 });
 
 
@@ -131,21 +135,49 @@ $(document).ready(function(){
                 controls: []
         	}); 
 
-        myMap.behaviors.disable([
+        	myMap.behaviors.disable([
                 'scrollZoom', 'drag'
             ]);
+
+        	var marks = [
+                [59.935070, 30.279720],
+                [59.927580, 30.323740],
+                [59.975510, 30.331505]   
+            ],
+
+            myCollection = new ymaps.GeoObjectCollection({}, {
+                draggable: false,
+                iconLayout: 'default#image',
+                iconImageHref: '../images/icons/map-marker.svg',
+                iconImageSize: [46, 57],
+                iconImageOffset: [-26, -52]
+            });
+
+            for (var i = 0; i < marks.length; i++) {
+                myCollection.add(new ymaps.Placemark(marks[i]));
+            };
+
+            myMap.geoObjects.add(myCollection);
+
 		};
 
-        myPlacemark1 = new ymaps.Placemark([59.93, 30.38], {
-            balloonContent: 'Средняя иконка'
-        }, {
-            iconLayout: 'default#image',
-            iconImageClipRect: [[34,0], [62, 46]],
-            iconImageHref: '../images/icons/map-marker.svg',
-            iconImageSize: [26, 46],
-            iconImageOffset: [-26, -46]
-        });
+});
 
-    myMap.geoObjects.add(myPlacemark1);
 
+$(function () {
+  $('#submit').on('click', function (e) {
+    e.preventDefault();
+
+    var userName = $('#name').val();
+
+    $.post(
+        "../main.php",
+        {
+          user_name: userName,
+        },
+        $(function () {
+          $('.order__emailed').bPopup();
+        })
+    );
+  });
 });
