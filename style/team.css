@@ -35,11 +35,19 @@
 
 .main__list__item {
 	margin-bottom: 35px;
+	position: relative;
 
 }
 
 .main__list__item__poly {
-	margin-right: 5px;
+	content: '';
+	position: absolute;
+	left: -19px;
+	top: 7px;
+	border: 6px solid transparent;
+	border-top: 6px solid #f9b43b;
+	transition: .3s;
+	transform: rotate(0) translate(0);
 }
 
 .main__team__member {
@@ -51,7 +59,12 @@
 }
 
 .main__team__member_active {
-	
+	color: #f9b43b;
+}
+
+.main__team__member_active .main__list__item__poly {
+	content: '';
+	transform: rotate(180deg) translate(0, 6px);
 }
 
 .main__team__member__photo {
@@ -72,9 +85,11 @@
 .main__team__member__position {
 	font-family: ubuntubold;
 	margin-bottom: 21px;
+	color: #fff;
 }
 
 .main__team__member__desc {
 	font-family: ubuntulight;
 	line-height: 1.4;
+	color: #fff;
 }

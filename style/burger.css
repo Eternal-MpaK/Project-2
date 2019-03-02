@@ -28,6 +28,45 @@
 	padding-bottom: 12px;
 	border-radius: 5px;
 	font-size: 14px;
+	opacity: .5;
+	transition: .3s;
+}
+
+.main__burger__kkal__cons {
+	width: 270px;
+	padding: 20px;
+	border-radius: 7px;
+	background: rgba(255, 255, 255, 0.9);
+	position: absolute;
+	top: 0;
+	left: 90.133px;
+	visibility: hidden;
+	transition: .3s;
+
+}
+
+.main__burger__kkal__cons__table__cell {
+	vertical-align: middle;
+	padding: 8px 18px 8px 0;
+	font-size: 16px;
+	color: #2f3234;
+}
+
+.cell-2 {
+	font-family: ubuntubold;
+}
+
+.cell-3 {
+	font-family: ubuntulight;
+	padding-left: 45px;
+}
+
+.main__burger__ingridients:hover {
+	opacity: 1;
+}
+
+.main__burger__ingridients:hover .main__burger__kkal__cons{
+	visibility: visible;
 }
 
 .main__burger__ingridients_image img {
@@ -42,6 +81,7 @@
 .main__burger__kkal {
 	font-family: gagalinregular;
 	color: #ffffff;
+	opacity: .5;
 }
 
 .main__burger__kkal__amount {

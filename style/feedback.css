@@ -2,10 +2,6 @@ body {
 	font-size: 0px;
 }
 
-.wrapper {
-	background-color: rgb(47, 50, 52);
-}
-
 .main__customer {
 	display: inline-block;
 	height: 50%;
@@ -43,7 +39,7 @@ body {
 
 .main__customer__feedback {
 	font-family: ubuntulight;
-	line-height: 2;
+	line-height: 1.5;
 	margin-bottom: 28px;
 }
 
