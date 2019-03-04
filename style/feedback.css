@@ -8,19 +8,22 @@ body {
 	width: 25%;
 	position: relative;
 	background-color: rgba(47, 50, 52, 0.93);
+	transition: .3s;
 }
 
 .main__customer:hover
 .main__customer_hover {
-	display: inline-block;
-
+	opacity: 1;
 }
 
 .main__customer_hover {
-	display: none;
+	display: inline-block;
+	opacity: 0;
 	position: absolute;
 	background-color: rgba(20, 20, 20, 0.7);
-	height: 100%;
+	height: calc(100% - 40px);
+	margin: 20px 20px;
+	transition: .4s;
 }
 
 .main__customer__box {
@@ -63,6 +66,10 @@ body {
 .main__customer__feedback__popup p {
 	font-family: ubuntulight;
 	line-height: 2;
+}
+
+.main__customer__more {
+	height: 20px;
 }
 
 .main__customer__more a {
